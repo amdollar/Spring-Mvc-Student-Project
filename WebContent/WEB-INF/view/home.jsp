@@ -7,6 +7,6 @@
 <title>Hi This is first page.</title>
 </head>
 <body>
-	<a href="/showCustomerForm">Customer Form</a>
+	<a href="${pageContext.request.contextPath}/customer/showCustomerForm">Customer Form</a>
 </body>
 </html>
